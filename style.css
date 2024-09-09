@@ -7,23 +7,27 @@
     transition: all 0.5s ease 0s;
 }
 
-main{
+main {
+    background: linear-gradient(to right top, #25283D, #1b1d2d);
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
-    background: linear-gradient(to right top, #25283D, #1b1d2d);
     display: flex;
     align-items: center;
     justify-content: center;
     clip-path: margin-box;
 }
 
-main div{
-    align-items: normal;
+main div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    width: fit-content; 
 }
 
-h1{
+h1 {
     text-align: center;
     color: #D1C6AD;
     font-size: 4rem;
+    margin-bottom: 0.5rem;
 }
