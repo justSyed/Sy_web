@@ -17,12 +17,13 @@ main{
     clip-path: margin-box;
 }
 
-h1{
-    color: #D1C6AD;
+main div{
+    align-items: normal;
+    justify-content: center;
 }
 
-.barcode{
-    font-family: "Libre Barcode 128", system-ui;
-    font-weight: 400;
-    font-style: normal;
+h1{
+    text-align: center;
+    color: #D1C6AD;
+    font-size: 4rem;
 }
