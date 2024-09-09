@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease 0s;
+}
+
+main{
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #25283D, #1b1d2d);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: margin-box;
+}
